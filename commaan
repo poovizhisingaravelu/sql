@@ -1,0 +1,13 @@
+Create databse:
+CREATE DATABASE IMDB;
+Create table:
+CREATE TABLE `movies`.`movies` ( `id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(150) NOT NULL , `genre` INT(50) NOT NULL , `release_date`
+DATE NOT NULL , PRIMARY KEY (`id`)) ENGINE = MyISAM;
+Insert values:
+INSERT INTO `movies`(`ID`, `Movie-Name`, `Movie_Generic`, `Movie_lang`, `Movie-banner`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]')
+Select table value using id:
+SELECT `ID`, `Movie-Name`, `Movie_Generic`, `Movie_lang`, `Movie-banner` FROM `movies` WHERE 1
+Update:
+INSERT INTO `movies`(`ID`, `Movie-Name`, `Movie_Generic`, `Movie_lang`, `Movie-banner`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]')
+Delete:
+DELETE FROM `movieslist` WHERE 
